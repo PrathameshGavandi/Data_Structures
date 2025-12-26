@@ -56,7 +56,7 @@ class SinglyLL
         this.iCount++;
     }
 
-    void InsertLast(int no)
+    public void InsertLast(int no)
     {
         node newn = null;
         node temp = null;
@@ -82,7 +82,7 @@ class SinglyLL
         this.iCount++;
     }
 
-    void DeleteFirst()
+    public void DeleteFirst()
     {
         if(this.first == null)
         {
@@ -101,7 +101,7 @@ class SinglyLL
         this.iCount--;
     }
 
-    void DeleteLast()
+    public void DeleteLast()
     {
         node temp = null;
 
@@ -129,7 +129,7 @@ class SinglyLL
         this.iCount--;
     }
 
-    void Display()
+    public void Display()
     {
         node temp = null;
 
@@ -143,12 +143,12 @@ class SinglyLL
         System.out.println("null\n");
     }
 
-    int Count()
+    public int Count()
     {
         return this.iCount;
     }
 
-    void InsertAtPos(int no,int pos)
+    public void InsertAtPos(int no,int pos)
     {
         node newn = null;
         node temp = null;
@@ -186,7 +186,7 @@ class SinglyLL
         }
     }
 
-    void DeleteAtPos(int pos)
+    public void DeleteAtPos(int pos)
     {
         node temp = null;
         int iCnt = 0;
