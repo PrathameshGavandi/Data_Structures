@@ -244,6 +244,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after InsertFirst are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
 
     //
     InsertLast(&head,101);
@@ -254,6 +255,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after InsertLast are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
 
     //
     DeleteFirst(&head);
@@ -262,6 +264,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after DeleteFirst are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
 
     //
     DeleteLast(&head);
@@ -270,6 +273,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after DeleteLast are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
 
     //
     InsertAtPos(&head,105,3);
@@ -278,6 +282,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after InsertAtPos are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
 
     //
     DeleteAtPos(&head,3);
@@ -286,6 +291,7 @@ int main()
     iRet = Count(head);
 
     printf("Number of nodes after DeleteAtPos are : %d\n",iRet);
+    printf("-------------------------------------------------------------\n");
     
     return 0;
 }
