@@ -39,6 +39,7 @@ void InsertFirst(PPNODE first,PPNODE last,int no)
     {
         *first = newn;
         *last = newn;
+        (*last) -> next = (*first);
     }
     else
     {
@@ -61,6 +62,7 @@ void InsertLast(PPNODE first,PPNODE last,int no)
     {
         *first = newn;
         *last = newn;
+        (*last) -> next = (*first);
     }
     else
     {
